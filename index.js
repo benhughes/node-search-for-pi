@@ -16,9 +16,9 @@ var getPiNumber = function (maxSides) {
         }
     };
 
-    console.log("pi is", calculatePi(6, 1, 206158430208));
+    console.log("pi is", calculatePi(6, 1, maxSides));
     console.log(Math.PI);
 
 };
 
-getPiNumber(192);
+getPiNumber(206158430208);
